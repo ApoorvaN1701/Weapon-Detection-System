@@ -40,27 +40,36 @@ This project has been implemented in:
 - The system was constructed using physical electronic components and successfully tested.
 - The GSM module was integrated to enable real-time security alerts.
 
+#### Hardware Circuit Diagram
+![Hardware Circuit Diagram](hardware/circuit_diagram.png)
+
+#### Hardware Setup
+![Hardware Setup](hardware/Hardware_setup.png)
+
 ### Virtual Testing (Tinkercad Simulation)
 - The system was also tested in Tinkercad to validate its functionality before hardware deployment.
 - The LCD, buzzer, and serial monitor outputs matched expected hardware behavior.
+
+#### Tinkercad Simulation Setup
+![Tinkercad Simulation](simulation/tinkercad_simulation.png)
 
 ## Project Directory Structure
 ```
 Weapon-Detection-System/
 │── hardware/
 │   ├── circuit_diagram.png  # Hardware circuit diagram
-│   ├── hardware_code.ino    # Arduino firmware for real-world implementation
+│   ├── hardware_code.ino     # Arduino firmware for real-world implementation
 │   ├── Hardware_output.png  # Hardware results
 │   ├── Hardware_setup.png   # Arduino connections for real-world implementation
 │── simulation/
 │   ├── tinkercad_simulation.png  # Screenshot of the simulation
-│   ├── simulation_code.ino       # Arduino firmware for simulation
-│   ├── Simulation_result.png     # Results achieved through tinkercad
+│   ├── simulation_code.ino   # Arduino firmware for simulation
+│   ├── Simulation_result.png  # Results achieved through Tinkercad
 │── docs/
 │   ├── Weapon-Detection-Report.pdf  # Detailed technical report
 │── LICENSE  # Open-source licensing information
 │── .gitignore  # Files excluded from version control
-├── README.md  # This project documentation
+│── README.md  # This project documentation
 ```
 
 ## Deployment & Execution
@@ -82,9 +91,15 @@ Weapon-Detection-System/
 - The buzzer and LCD warnings functioned correctly.
 - Reliable performance with minimal false positives.
 
+#### Hardware Test Output
+![Hardware Test Output](hardware/Hardware_output.png)
+
 ### Tinkercad Simulation Outcomes
 - Achieved detection accuracy similar to real-world implementation.
 - Serial Monitor logs provided expected detection outputs.
+
+#### Tinkercad Simulation Results
+![Tinkercad Simulation Results](simulation/Simulation_result.png)
 
 ## Licensing & Usage
 This project is licensed under the MIT License – allowing free usage, modification, and distribution for research or educational purposes.
