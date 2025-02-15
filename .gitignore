@@ -1,0 +1,33 @@
+# Arduino compiled files and temporary files
+*.hex
+*.elf
+*.bin
+*.eep
+*.lst
+*.map
+*.o
+*.obj
+
+# Mac and Linux system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trash
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Build and cache directories
+__pycache__/
+build/
+*.bak
+
+# Ignore simulation-specific files (Tinkercad, Proteus)
+simulation/*.autosave
+simulation/*.backup
